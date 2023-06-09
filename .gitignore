@@ -1,0 +1,12 @@
+# Visual Studio Code Settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Visual Studio Code clangd cache
+.cache/
+
+# CMake build file
+build/
