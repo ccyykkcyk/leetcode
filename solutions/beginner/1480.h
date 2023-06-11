@@ -1,6 +1,4 @@
-#include <vector>
-
-using ::std::vector;
+#include <leetcode/leetcode.h>
 
 class Solution {
   public:
