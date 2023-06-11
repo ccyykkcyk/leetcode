@@ -1,5 +1,3 @@
-#include <leetcode/leetcode.h>
-
 class Solution {
   public:
     int numberOfSteps(int num) {

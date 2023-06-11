@@ -1,5 +1,7 @@
-#include <leetcode/leetcode.h>
 #include <numeric>
+#include <vector>
+
+using ::std::vector;
 
 class Solution {
   public:
