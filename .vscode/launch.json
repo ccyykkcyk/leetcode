@@ -5,6 +5,9 @@
             "type": "lldb",
             "request": "launch",
             "name": "lldb-Launch",
+            "initCommands": [
+                "settings set target.process.thread.step-avoid-regexp ([c|C]atch)|(std::.*)"
+            ],
             "program": "${command:cmake.launchTargetPath}",
             "args": [],
             "cwd": "${workspaceFolder}"
