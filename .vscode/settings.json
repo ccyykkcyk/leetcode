@@ -1,0 +1,28 @@
+{
+    "clangd.arguments": [
+        "--enable-config",
+        "--background-index",
+        "--clang-tidy",
+        "--all-scopes-completion",
+        "--completion-style=detailed",
+        "--header-insertion=iwyu",
+        "--function-arg-placeholders",
+        "--log=verbose",
+        "--pretty"
+    ],
+    "sonarlint.pathToCompileCommands": "${workspaceFolder}\\build\\compile_commands.json",
+    "files.autoGuessEncoding": true,
+    "[c]": {
+        "files.autoGuessEncoding": false,
+        "files.encoding": "gb2312"
+    },
+    "[cpp]": {
+        "files.autoGuessEncoding": false,
+        "files.encoding": "gb2312"
+    },
+    "testMate.cpp.test.advancedExecutables": [
+        {
+            "pattern": "build\\**\\test\\**",
+        }
+    ]
+}
