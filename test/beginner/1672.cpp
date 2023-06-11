@@ -2,7 +2,7 @@
 
 #include <catch2/catch_test_macros.hpp>
 
-TEST_CASE("richest-customer-wealth"){
+TEST_CASE("richest-customer-wealth") {
     Solution test;
     SECTION("ex1") {
         vector<vector<int>> accounts = {{1, 2, 3}, {3, 2, 1}};
