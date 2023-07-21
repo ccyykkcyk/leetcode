@@ -1,6 +1,6 @@
 include_directories(${CMAKE_SOURCE_DIR}/solutions/misc)
 
-set(SOLUTIONS 0015)
+set(SOLUTIONS 0015 0053)
 
 add_link_options(-fuse-ld=lld)
 
