@@ -1,6 +1,6 @@
 include_directories(${CMAKE_SOURCE_DIR}/solutions/daily)
 
-set(SOLUTIONS 1375 2481 1254 0167 0860)
+set(SOLUTIONS 1375 2481 1254 0167 0860 0141)
 
 add_link_options(-fuse-ld=lld)
 
