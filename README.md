@@ -1,1 +1,1 @@
-# leetcode googletest repo
+# leetcode catch2 repo
