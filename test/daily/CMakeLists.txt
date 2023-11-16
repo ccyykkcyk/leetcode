@@ -8,7 +8,8 @@ set(SOLUTIONS
     0860
     0141
     0142
-    2656)
+    2656
+    2760)
 
 add_link_options(-fuse-ld=lld)
 
