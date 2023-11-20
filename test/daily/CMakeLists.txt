@@ -10,7 +10,8 @@ set(SOLUTIONS
     0142
     2656
     2760
-    2342)
+    2342
+    0053)
 
 add_link_options(-fuse-ld=lld)
 
