@@ -14,7 +14,8 @@ set(SOLUTIONS
     0053
     2216
     2304
-    1410)
+    1410
+    2824)
 
 add_link_options(-fuse-ld=lld)
 
