@@ -1,3 +1,5 @@
+#ifndef LEETCODE_LIST_H_
+#define LEETCODE_LIST_H_
 // Definition for singly-linked list.
 struct ListNode {
     int val;
@@ -6,3 +8,4 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
+#endif
