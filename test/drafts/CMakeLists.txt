@@ -1,6 +1,6 @@
 include_directories(${CMAKE_SOURCE_DIR}/solutions/drafts)
 
-set(SOLUTIONS 1483 1494 0918 0907 2008)
+set(SOLUTIONS 1483 1494 0918 0907 2008 2454)
 
 add_link_options(-fuse-ld=lld)
 
