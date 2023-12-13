@@ -26,7 +26,8 @@ set(SOLUTIONS
     1038
     1446
     2048
-    0070)
+    0070
+    2697)
 
 add_link_options(-fuse-ld=lld)
 
