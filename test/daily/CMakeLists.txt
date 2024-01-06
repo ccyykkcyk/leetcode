@@ -29,7 +29,8 @@ set(SOLUTIONS
     0070
     2697
     2415
-    0746)
+    0746
+    2807)
 
 add_link_options(-fuse-ld=lld)
 
