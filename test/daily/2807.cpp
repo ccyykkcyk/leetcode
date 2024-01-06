@@ -22,4 +22,9 @@ TEST_CASE("insert-greatest-common-divisors-in-linked-list") {
             ans = ans->next;
         }
     }
+    SECTION("ex2") {
+        ListNode *head = new ListNode({18, 6, 10, 3});
+        ListNode *ans = new ListNode({18, 6, 6, 2, 10, 1, 3});
+        REQUIRE(*ans == *s.insertGreatestCommonDivisors(head));
+    }
 }
