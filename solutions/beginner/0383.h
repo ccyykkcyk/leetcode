@@ -1,18 +1,14 @@
+#include <algorithm>
 #include <string>
-#include <vector>
 
-using ::std::string, ::std::vector;
-
+using ::std::string;
 class Solution {
   public:
     bool canConstruct(string ransomNote, string magazine) {
-        vector<int> m(26, 0);
-        for (const auto &it : magazine) {
-            m[it - 'a'] += 1;
-        }
-        for (const auto &it : ransomNote) {
-            m[it - 'a'] -= 1;
-            if (m[it - 'a'] < 0) {
+        int foo[26] = {0};
+        std::ranges::for_each(magazine, [&](auto ch) { ++foo[ch - 'a']; });
+        for (auto ch : ransomNote) {
+            if (--foo[ch - 'a'] < 0) {
                 return false;
             }
         }
