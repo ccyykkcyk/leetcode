@@ -34,7 +34,8 @@ set(SOLUTIONS
     0082
     2744
     2171
-    2788)
+    2788
+    0670)
 
 add_link_options(-fuse-ld=lld)
 
