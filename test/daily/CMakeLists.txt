@@ -40,7 +40,8 @@ set(SOLUTIONS
     2865
     2859
     0303
-    1969)
+    1969
+    2671)
 
 add_link_options(-fuse-ld=lld)
 
