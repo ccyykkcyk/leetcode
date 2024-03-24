@@ -42,7 +42,8 @@ set(SOLUTIONS
     0303
     1969
     2671
-    2549)
+    2549
+    0322)
 
 add_link_options(-fuse-ld=lld)
 
