@@ -44,7 +44,8 @@ set(SOLUTIONS
     2671
     2549
     0322
-    2580)
+    2580
+    1997)
 
 add_link_options(-fuse-ld=lld)
 
