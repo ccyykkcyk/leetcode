@@ -1,6 +1,7 @@
 BasedOnStyle: LLVM
 IndentWidth: 4
 AccessModifierOffset: -4
+ColumnLimit: 95
 ---
 Language: Cpp
 Standard: c++20

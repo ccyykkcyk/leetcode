@@ -46,7 +46,8 @@ set(SOLUTIONS
     0322
     2580
     1997
-    2908)
+    2908
+    0331)
 
 add_link_options(-fuse-ld=lld)
 
